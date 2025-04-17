@@ -1,3 +1,2 @@
 # WIC-Project-Group1
-Testing 2
-lexc bn
+Spring 2025 WIC Project Group 1!
