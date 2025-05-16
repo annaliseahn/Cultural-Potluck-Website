@@ -5,6 +5,13 @@
     - (Tip: You can always override these rules later in the stylesheet)
 ***/
 
+#bannerimage {
+  width: 100%;
+  background-image: url(http://s30.postimg.org/x0ne0p5wx/bootsrap.png);
+  height: 405px;
+  background-color: purple;
+  background-position: center;
+}
 
 body { 
     /* Add a background color or image */
@@ -14,7 +21,7 @@ body {
     /* Customize the default size, color, and font for text*/
     font-size: 16px;
     color: var(--text-color);
-    font-family: "Century Gothic", sans-serif; /* This tells the browser: "Try to use `Tahoma`, and if you can't find it, use any sans-serif font." */
+    font-family: "Georgia", sans-serif; /* This tells the browser: "Try to use `Tahoma`, and if you can't find it, use any sans-serif font." */
 
 
     /* Put space around the edges of the webpage */
