@@ -5,7 +5,7 @@
     - (Tip: You can always override these rules later in the stylesheet)
 ***/
 
-#bannerimage {
+#bannerimage { /* copied from stack overflow, delete later, for banner*/
   width: 100%;
   background-image: url(http://s30.postimg.org/x0ne0p5wx/bootsrap.png);
   height: 405px;
