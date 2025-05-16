@@ -6,7 +6,7 @@
 ***/
 
 
-body {
+body { 
     /* Add a background color or image */
     background-color: var(--bg-color); /* see bottom of file for color variables */
 
@@ -154,7 +154,7 @@ button:hover {
 
 :root {
     /* Light Mode */
-    --bg-color: #a6a0cf;
+    --bg-color: #F9E79F;
     --text-color: #231942;
 
 
