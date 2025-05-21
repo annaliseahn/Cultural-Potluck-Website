@@ -33,9 +33,9 @@
 
         <p><img alt="Image of cute bunnies with food" src="./img/bunnieswithfood.jpg" height="200"/></p>
 
-        <button type="button">RSVP here!</button>
-        <button type="button">See menu</button>
-        <button type="button">See schedule</button>
+        <a href = "#about"><button type="button">Learn more</button></a>
+        <a href = "#menu"><button type="button">View menu</button></a>
+        <a href = "#rsvp"><button type="button">RSVP here!</button></a>
 
 
         <!-- about
@@ -43,32 +43,34 @@
         - Section for general info about the event
         - Contains a video, description, and key points about the event
         -->
-        <h2>About the Event</h2>
+        <div id = "about">
+            <h2>About the Event</h2>
 
-        <p> This is the RSVP for the big summer potluck. There will be a pool, games, and crafts :D </p>
-        <p> Come learn about different cultures and make friends! </p>
+            <p> This is the RSVP for the big summer potluck. There will be a pool, games, and crafts :D </p>
+            <p> Come learn about different cultures and make friends! </p>
 
-        <h3>Bring food to share to get free food!</h3>
+            <h3>Bring food to share to get free food!</h3>
 
 
-        <!-- schedule
-        Purpose:
-        - Section for specific info about the event's schedule
-        - Contains images and descriptions of each activity
-        -->
-        <h2>Event Schedule</h2>
+            <!-- schedule
+            Purpose:
+            - Section for specific info about the event's schedule
+            - Contains images and descriptions of each activity
+            -->
+            <h2>Event Schedule</h2>
 
-        <img alt="Picture of pool" src="./img/pool.jpg" height="300"/> 
-        <h3>Pool Party</h3>
-        <p>Have fun in the sun!</p>
-           
-        <img alt="Cultural display" src="./img/culturaldisplay.jpg"/>
-        <h3>Cultural Displays</h3>
-        <p>Come see the different cultures represented through food, games, and crafts!</p>
+            <img alt="Picture of pool" src="./img/pool.jpg" height="300"/> 
+            <h3>Pool Party</h3>
+            <p>Have fun in the sun!</p>
+            
+            <img alt="Cultural display" src="./img/culturaldisplay.jpg"/>
+            <h3>Cultural Displays</h3>
+            <p>Come see the different cultures represented through food, games, and crafts!</p>
 
-        <img alt="Arthur nomming a cake" src="./img/arthur-cake.jpg"/>
-        <h3>Dinner</h3>
-        <p>Eat with your new friends!</p>
+            <img alt="Arthur nomming a cake" src="./img/arthur-cake.jpg"/>
+            <h3>Dinner</h3>
+            <p>Eat with your new friends!</p>
+        </div>
 
 
         <!-- rsvp [PLACEHOLDER] -->
@@ -79,47 +81,69 @@
         Purpose:
         - Links to other resources related to the event
         -->
-        <h2>Some cultures that will be represented:</h2>
+        <div id = "menu">
+            <h2>Some cultures that will be represented:</h2>
 
-        <h3>Culture 1</h3>
+            <h3>Culture 1</h3>
+            
+            <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
+            <a class="block" href="https://www.ucsdwic.github.io">
+                <article>
+                    <h3>Link title</h3>
+                    <p>Link description</p>
+                </article>
+            </a>
+
+
+            <h3>Vietnam</h3>
+
+            <!-- Embed video -->
+            <iframe src=" "></iframe>
+            <p>Video description</p>
+            <p> Some popular Vietnamese dishes include pho, banh mi, and spring rolls! Key characteristics of Vietnamese cuisince include an emphasis on rice, balanced flavors, freshness and simplicity! </p>
+
+
+            <h3>Culture 3</h3>
+
+            <h4>Bullet points</h4>
+            <ul>
+                <li> <b>Bullet point 1:</b> <i>Description</i></li>
+                <li> <b>Bullet point 2:</b> <i>Description</i></li>
+                <li> <b>Bullet point 3:</b> <i>Description</i></li>
+            </ul>
+
+
+            <h3>Culture 4</h3>
+
+            <h4>Ordered list</h4>
+            <ol>
+                <li> <b>List item 1:</b> <i>Description</i></li>
+                <li> <b>List item 2:</b> <i>Description</i></li>
+                <li> <b>List item 3:</b> <i>Description</i></li>
+            </ol>
+        </div>
         
-        <!-- This <a> block is one link.  Copy and paste all 6 lines to create another link. -->
-        <a class="block" href="https://www.ucsdwic.github.io">
-            <article>
-                <h3>Link title</h3>
-                <p>Link description</p>
-            </article>
-        </a>
+        <div id = "rsvp">
+            <h2>RSVP</h2>
+            <form>
+                <div class = "input">
+                    <label for = "name">Name:</label><br>
+                    <input type = "text" id = "name" name = "name">
+                </div>
+                
+                <div class = "input">
+                    <label for = "dish">Dish you're bringing:</label><br>
+                    <input type = "text" id = "dish" name = "dish">
+                </div>
 
+                <div class = "input">
+                    <label for = "ingredients">Ingredients of your dish:</label><br>
+                    <input type = "text" id = "ingredients" name = "ingredients">
+                </div>
 
-        <h3>Vietnam</h3>
-
-        <!-- Embed video -->
-        <iframe src=" "></iframe>
-        <p>Video description</p>
-        <p> Some popular Vietnamese dishes include pho, banh mi, and spring rolls! Key characteristics of Vietnamese cuisince include an emphasis on rice, balanced flavors, freshness and simplicity! </p>
-
-
-        <h3>Culture 3</h3>
-
-        <h4>Bullet points</h4>
-        <ul>
-            <li> <b>Bullet point 1:</b> <i>Description</i></li>
-            <li> <b>Bullet point 2:</b> <i>Description</i></li>
-            <li> <b>Bullet point 3:</b> <i>Description</i></li>
-        </ul>
-
-
-        <h3>Culture 4</h3>
-
-        <h4>Ordered list</h4>
-        <ol>
-            <li> <b>List item 1:</b> <i>Description</i></li>
-            <li> <b>List item 2:</b> <i>Description</i></li>
-            <li> <b>List item 3:</b> <i>Description</i></li>
-        </ol>
-
-           
+                <button type = "submit">Submit RSVP</button>
+            </form>
+        </div>
         <!-- footer [PLACEHOLDER] -->
         <!-- script [PLACEHOLDER]-->
 
