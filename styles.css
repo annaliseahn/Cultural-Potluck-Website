@@ -136,6 +136,14 @@ button:hover {
   font-size: 14px;
 
 }
+
+#rsvp {
+  text-align: center;
+}
+
+#rsvp form{
+  text-align: center;
+}
 /*** header ***
   Purpose:
   - Add style rules for your website's header section
